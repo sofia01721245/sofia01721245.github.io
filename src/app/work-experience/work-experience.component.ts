@@ -15,27 +15,37 @@ constructor() { }
 ngOnInit(): void {
 
   let work1 = {
-    fecha : "2018-2022",
-    ubicacion : "Orizaba, Ver",
-    puesto: "CEO",
-    empresa: "Waves",
+    fecha : "2020-2021",
+    ubicacion : "Apodaca, NL",
+    puesto: "Software Intern",
+    empresa: "Schneider Electric",
     logros : [
-      {descripcion: "Dron autonomo" }, 
-      {descripcion: "Cluster GPU " },
+      {descripcion: "Comunicación trasnacional." }, 
+      {descripcion: "Trabajo en movimiento de datos." },
     ]
   };
   let work2 = {
-    fecha : "2015-2018",
-    ubicacion : "Ixtac, Ver",
-    puesto: "CEO",
-    empresa: "Kubeet",
+    fecha : "2021-2022",
+    ubicacion : "San Pedro, NL",
+    puesto: "QA Intern",
+    empresa: "Epicor",
     logros : [
-      { descripcion: "Cluster hadoop" },
-      {descripcion: "Red Neuronal GAN" },
+      { descripcion: "Manejo de Versiones" },
+      {descripcion: "Testing" },
+    ]
+  };
+  let work3 = {
+    fecha : "2022-Actualidad",
+    ubicacion : "Zapopan, Jal",
+    puesto: "Software Development Intern",
+    empresa: "Intel",
+    logros : [
+      { descripcion: "Creación de transactores." },
+      {descripcion: "Mantenimiento a codigo." },
     ]
   };
 this.workExperience.push(work1); 
 this.workExperience.push(work2);
-
+this.workExperience.push(work3);
 }
 }

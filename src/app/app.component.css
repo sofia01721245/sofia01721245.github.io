@@ -1,0 +1,11 @@
+table { 
+        width: 100vw;
+        height: 100vh;
+}
+
+td {
+    font: arial;
+    font-size: medium;
+    align-items: center;
+  }
+  
